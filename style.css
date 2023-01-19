@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+table,
+td,
+th {
+  border: 1px solid black;
+}
+
+.first-row {
+  text-align: center;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  border-collapse: collapse;
+}
+
+.first-column {
+  width: 10%;
+  padding: 0;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+}
+
+.second-column {
+  width: 35%;
+}
+
+.third-column {
+  width: 20%;
+}
+
+.fourth-column {
+  width: 10%;
+}
+
+.fifth-column {
+  width: 20%;
+}
+
+td {
+  text-align: left;
+  padding: 5px;
+}
