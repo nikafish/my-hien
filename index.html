@@ -12,48 +12,71 @@
     <div class="container">
       <h1>Mì Gia Mỹ Hiền</h1>
       <table>
-        <tr class="first-row">
-          <td>STT</td>
-          <td>Nút giảm</td>
-          <td>Tên món</td>
-          <td>Đơn giá</td>
-          <td>Số lượng</td>
-          <td>Tổng giá</td>
+        <!--*********************Hang 0: Title -->
+        <tr class="tr-row-title">
+          <td width="10%">STT</td>
+          <td width="10%">Nút giảm</td>
+          <td width="30%">Tên món</td>
+          <td width="20%">Đơn giá</td>
+          <td width="10%">Số lượng</td>
+          <td width="20%">Tổng giá</td>
         </tr>
-
-        <tr class="notFirst-row">
-          <td class="veryFirst-column">1</td>
-          <td class="first-column" id="first-button">
-            <button>&minus;</button>
+        <!--*********************Hang 1: Vit Tiem -->
+        <tr class="tr-td-row-1">
+          <td class="td-row-1">1</td>
+          <td class="td-row-1" id="td-button-minus-1">
+            <button class="td-row-1" id="minus-1">&minus;</button>
           </td>
-          <td class="second-column" id="first-name">Vịt tiềm</td>
-          <td class="third-column" id="first-price">130k</td>
-          <td class="fourth-column" id="first-amount">0</td>
-          <td class="fifth-column" id="first-total">0</td>
+          <td class="td-row-1" id="td-name-1">
+            <button class="td-row-1" id="add-1">Vịt Tiềm</button>
+          </td>
+          <td class="td-row-1" id="td-price-1">130k</td>
+          <td class="td-row-1" id="td-amount-1">0</td>
+          <td class="td-row-1" id="td-total-1">0k</td>
         </tr>
-
-        <tr class="notFirst-row">
-          <td class="veryFirst-column">2</td>
-          <td class="first-column" id="second-button">
-            <button>&minus;</button>
+        <!--*********************Hang 2: Vit Tiem Nho-->
+        <tr class="tr-td-row-2">
+          <td class="td-row-2">2</td>
+          <td class="td-row-2" id="td-button-minus-2">
+            <button class="td-row-2" id="minus-2">&minus;</button>
           </td>
-          <td class="second-column" id="second-name">Vịt tiềm nhỏ</td>
-          <td class="third-column" id="second-price">120k</td>
-          <td class="fourth-column" id="second-amount">0</td>
-          <td class="fifth-column" id="second-total">0</td>
+          <td class="td-row-2" id="td-name-2">
+            <button class="td-row-2" id="add-2">Vịt Tiềm Nhỏ</button>
+          </td>
+          <td class="td-row-2" id="td-price-2">120k</td>
+          <td class="td-row-2" id="td-amount-2">0</td>
+          <td class="td-row-2" id="td-total-2">0k</td>
         </tr>
-
-        <tr class="notFirst-row">
-          <td class="veryFirst-column">3</td>
-          <td class="first-column" id="third-button">
-            <button>&minus;</button>
+        <!--*********************Hang 3: Dac Biet -->
+        <tr class="tr-td-row-3">
+          <td class="td-row-3">3</td>
+          <td class="td-row-3" id="td-button-minus-3">
+            <button class="td-row-3" id="minus-3">&minus;</button>
           </td>
-          <td class="second-column" id="third-name">Vịt tiềm lớn</td>
-          <td class="third-column" id="third-price">140k</td>
-          <td class="fourth-column" id="third-amount">0</td>
-          <td class="fifth-column" id="third-total">0</td>
+          <td class="td-row-3" id="td-name-3">
+            <button class="td-row-3" id="add-3">Đặc Biệt</button>
+          </td>
+          <td class="td-row-3" id="td-price-3">90k</td>
+          <td class="td-row-3" id="td-amount-3">0</td>
+          <td class="td-row-3" id="td-total-3">0k</td>
+        </tr>
+         <!--*********************Hang 4: Dac Biet Nho-->
+        <tr class="tr-td-row-4">
+          <td class="td-row-4">4</td>
+          <td class="td-row-4" id="td-button-minus-4">
+            <button class="td-row-4" id="minus-4">&minus;</button>
+          </td>
+          <td class="td-row-4" id="td-name-4">
+            <button class="td-row-4" id="add-4">Đặc Biệt Nhỏ</button>
+          </td>
+          <td class="td-row-4" id="td-price-4">80k</td>
+          <td class="td-row-4" id="td-amount-4">0</td>
+          <td class="td-row-4" id="td-total-4">0k</td>
         </tr>
       </table>
+      <h2 id="last-sum">0 đ</h2>
+      <button id="reset-all"><h2>Tính Lại</h2></button>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
