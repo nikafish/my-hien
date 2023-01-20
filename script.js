@@ -30,14 +30,14 @@ buttons.forEach((item) => {
 
 function resetAll() {
     window.console.log("Resetting all----------------------------------------------------------------");
-    let index = 1;
+    let index = 0;
     let elmTotal = document.getElementById("td-total-" + index);
     while (elmTotal != null && elmTotal != undefined) {
         elmTotal.innerText = "0k"
         index++;
         elmTotal = document.getElementById("td-total-" + index);
     }
-    index = 1;
+    index = 0;
     let elmAmount = document.getElementById("td-amount-" + index);
     while (elmAmount != null && elmAmount != undefined) {
       elmAmount.innerText = "0";
@@ -49,7 +49,7 @@ function resetAll() {
 }
 
 function lastSum() {
-  let index = 1;
+  let index = 0;
   let elm = document.getElementById("td-total-" + index);
   let sum = 0;
   while (elm != null && elm != undefined) {

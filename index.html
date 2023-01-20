@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
-
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,12 +13,25 @@
       <table>
         <!--*********************Hang 0: Title -->
         <tr class="tr-row-title">
-          <td width="10%">STT</td>
-          <td width="10%">Nút giảm</td>
-          <td width="30%">Tên món</td>
-          <td width="20%">Đơn giá</td>
-          <td width="10%">Số lượng</td>
+          <td width="5%">No</td>
+          <td width="10%">Giảm</td>
+          <td width="45%">Tên món</td>
+          <td width="15%">Giá</td>
+          <td width="5%">SL</td>
           <td width="20%">Tổng giá</td>
+        </tr>
+        <!--*********************Hang 0: Vit Tiem 3 Vắt -->
+        <tr class="tr-td-row-0">
+          <td class="td-row-0">0</td>
+          <td class="td-row-0" id="td-button-minus-0">
+            <button class="td-row-0" id="minus-0">&minus;</button>
+          </td>
+          <td class="td-row-0" id="td-name-0">
+            <button class="td-row-0" id="add-0">Vịt Tiềm 3 Vắt</button>
+          </td>
+          <td class="td-row-0" id="td-price-0">140k</td>
+          <td class="td-row-0" id="td-amount-0">0</td>
+          <td class="td-row-0" id="td-total-0">0k</td>
         </tr>
         <!--*********************Hang 1: Vit Tiem -->
         <tr class="tr-td-row-1">
@@ -47,35 +59,195 @@
           <td class="td-row-2" id="td-amount-2">0</td>
           <td class="td-row-2" id="td-total-2">0k</td>
         </tr>
-        <!--*********************Hang 3: Dac Biet -->
+        <!--*********************Hang 3: Đùi tiềm thêm, đặc biệt 3 vắt -->
         <tr class="tr-td-row-3">
           <td class="td-row-3">3</td>
           <td class="td-row-3" id="td-button-minus-3">
             <button class="td-row-3" id="minus-3">&minus;</button>
           </td>
           <td class="td-row-3" id="td-name-3">
-            <button class="td-row-3" id="add-3">Đặc Biệt</button>
+            <button class="td-row-3" id="add-3">Đùi Tiềm, Đặc Biệt 3Vắt</button>
           </td>
-          <td class="td-row-3" id="td-price-3">90k</td>
+          <td class="td-row-3" id="td-price-3">100k</td>
           <td class="td-row-3" id="td-amount-3">0</td>
           <td class="td-row-3" id="td-total-3">0k</td>
         </tr>
-         <!--*********************Hang 4: Dac Biet Nho-->
+         <!--*********************Hang 4: Đặc biệt, Vang Cẩm 3 Vắt-->
         <tr class="tr-td-row-4">
           <td class="td-row-4">4</td>
           <td class="td-row-4" id="td-button-minus-4">
             <button class="td-row-4" id="minus-4">&minus;</button>
           </td>
           <td class="td-row-4" id="td-name-4">
-            <button class="td-row-4" id="add-4">Đặc Biệt Nhỏ</button>
+            <button class="td-row-4" id="add-4">Đặc Biệt, Vang-Cẩm 3 vắt</button>
           </td>
-          <td class="td-row-4" id="td-price-4">80k</td>
+          <td class="td-row-4" id="td-price-4">90k</td>
           <td class="td-row-4" id="td-amount-4">0</td>
           <td class="td-row-4" id="td-total-4">0k</td>
         </tr>
+         <!--*********************Hang 5: Vang Cẩm -->
+        <tr class="tr-td-row-5">
+          <td class="td-row-5">5</td>
+          <td class="td-row-5" id="td-button-minus-5">
+            <button class="td-row-5" id="minus-5">&minus;</button>
+          </td>
+          <td class="td-row-5" id="td-name-5">
+            <button class="td-row-5" id="add-5">Nam Vang, Cẩm</button>
+          </td>
+          <td class="td-row-5" id="td-price-5">80k</td>
+          <td class="td-row-5" id="td-amount-5">0</td>
+          <td class="td-row-5" id="td-total-5">0k</td>
+        </tr>
+        <!--*********************Hang 6: Vang Cẩm Nhỏ, Thường 3 Vắt-->
+        <tr class="tr-td-row-6">
+          <td class="td-row-6">6</td>
+          <td class="td-row-6" id="td-button-minus-6">
+            <button class="td-row-6" id="minus-6">&minus;</button>
+          </td>
+          <td class="td-row-6" id="td-name-6">
+            <button class="td-row-6" id="add-6">Vang Cẩm Nhỏ, Thường 3 Vắt, Đồ ăn ĐB Thêm</button>
+          </td>
+          <td class="td-row-6" id="td-price-6">70k</td>
+          <td class="td-row-6" id="td-amount-6">0</td>
+          <td class="td-row-6" id="td-total-6">0k</td>
+        </tr>
+        <!--*********************Hang 7: Tô Thường-->
+        <tr class="tr-td-row-7">
+          <td class="td-row-7">7</td>
+          <td class="td-row-7" id="td-button-minus-7">
+            <button class="td-row-7" id="minus-7">&minus;</button>
+          </td>
+          <td class="td-row-7" id="td-name-7">
+            <button class="td-row-7" id="add-7">Tô Thường, Đồ Ăn Cẩm</button>
+          </td>
+          <td class="td-row-7" id="td-price-7">60k</td>
+          <td class="td-row-7" id="td-amount-7">0</td>
+          <td class="td-row-7" id="td-total-7">0k</td>
+        </tr>
+        <!--*********************Hang 8: Tô Thường Nhỏ-->
+        <tr class="tr-td-row-8">
+          <td class="td-row-8">8</td>
+          <td class="td-row-8" id="td-button-minus-8">
+            <button class="td-row-8" id="minus-8">&minus;</button>
+          </td>
+          <td class="td-row-8" id="td-name-8">
+            <button class="td-row-8" id="add-8">Tô Thường 1 Vắt</button>
+          </td>
+          <td class="td-row-8" id="td-price-8">50k</td>
+          <td class="td-row-8" id="td-amount-8">0</td>
+          <td class="td-row-8" id="td-total-8">0k</td>
+        </tr>
+        <!--*********************Hang 10: Đồ Ăn Thêm-->
+        <tr class="tr-td-row-9">
+          <td class="td-row-9">9</td>
+          <td class="td-row-9" id="td-button-minus-9">
+            <button class="td-row-9" id="minus-9">&minus;</button>
+          </td>
+          <td class="td-row-9" id="td-name-9">
+            <button class="td-row-9" id="add-9">Đồ Ăn Thường Thêm</button>
+          </td>
+          <td class="td-row-9" id="td-price-9">40k</td>
+          <td class="td-row-9" id="td-amount-9">0</td>
+          <td class="td-row-9" id="td-total-9">0k</td>
+        </tr>
+        <!--*********************Hang 10: Phần ăn giá 30k-->
+        <tr class="tr-td-row-10">
+          <td class="td-row-10">10</td>
+          <td class="td-row-10" id="td-button-minus-10">
+            <button class="td-row-10" id="minus-10">&minus;</button>
+          </td>
+          <td class="td-row-10" id="td-name-10">
+            <button class="td-row-10" id="add-10">Món 30k</button>
+          </td>
+          <td class="td-row-10" id="td-price-10">30k</td>
+          <td class="td-row-10" id="td-amount-10">0</td>
+          <td class="td-row-10" id="td-total-10">0k</td>
+        </tr>
+        <!--*********************Hang 11: Phần ăn giá 20k-->
+        <tr class="tr-td-row-11">
+          <td class="td-row-11">11</td>
+          <td class="td-row-11" id="td-button-minus-11">
+            <button class="td-row-11" id="minus-11">&minus;</button>
+          </td>
+          <td class="td-row-11" id="td-name-11">
+            <button class="td-row-11" id="add-11">Món 20k</button>
+          </td>
+          <td class="td-row-11" id="td-price-11">20k</td>
+          <td class="td-row-11" id="td-amount-11">0</td>
+          <td class="td-row-11" id="td-total-11">0k</td>
+        </tr>
+        <!--*********************Hang 12: Nước 17k-->
+        <tr class="tr-td-row-12">
+          <td class="td-row-12">12</td>
+          <td class="td-row-12" id="td-button-minus-12">
+            <button class="td-row-12" id="minus-12">&minus;</button>
+          </td>
+          <td class="td-row-12" id="td-name-12">
+            <button class="td-row-12" id="add-12">Nước Coca Pepsi Sâm...</button>
+          </td>
+          <td class="td-row-12" id="td-price-12">17k</td>
+          <td class="td-row-12" id="td-amount-12">0</td>
+          <td class="td-row-12" id="td-total-12">0k</td>
+        </tr>
+        <!--*********************Hang 13: Nước Suối 12k-->
+        <tr class="tr-td-row-13">
+          <td class="td-row-13">13</td>
+          <td class="td-row-13" id="td-button-minus-13">
+            <button class="td-row-13" id="minus-13">&minus;</button>
+          </td>
+          <td class="td-row-13" id="td-name-13">
+            <button class="td-row-13" id="add-13">Nước Suối</button>
+          </td>
+          <td class="td-row-13" id="td-price-13">12k</td>
+          <td class="td-row-13" id="td-amount-13">0</td>
+          <td class="td-row-13" id="td-total-13">0k</td>
+        </tr>
+        <!--*********************Hang 14: Đồ Ăn 10k-->
+        <tr class="tr-td-row-14">
+          <td class="td-row-14">14</td>
+          <td class="td-row-14" id="td-button-minus-14">
+            <button class="td-row-14" id="minus-14">&minus;</button>
+          </td>
+          <td class="td-row-14" id="td-name-14">
+            <button class="td-row-14" id="add-14">Vắt Mì, Đồ Ăn 10k</button>
+          </td>
+          <td class="td-row-14" id="td-price-14">10k</td>
+          <td class="td-row-14" id="td-amount-14">0</td>
+          <td class="td-row-14" id="td-total-14">0k</td>
+        </tr>
+        <!--*********************Hang 15: Đồ Ăn 5k-->
+        <tr class="tr-td-row-15">
+          <td class="td-row-15">15</td>
+          <td class="td-row-15" id="td-button-minus-15">
+            <button class="td-row-15" id="minus-15">&minus;</button>
+          </td>
+          <td class="td-row-15" id="td-name-15">
+            <button class="td-row-15" id="add-15">Hộp, Đồ Ăn 5k...</button>
+          </td>
+          <td class="td-row-15" id="td-price-15">5k</td>
+          <td class="td-row-15" id="td-amount-15">0</td>
+          <td class="td-row-15" id="td-total-15">0k</td>
+        </tr>
+        <!--*********************Hang 16: Khăn Lạnh 2k-->
+        <tr class="tr-td-row-16">
+          <td class="td-row-16">16</td>
+          <td class="td-row-16" id="td-button-minus-16">
+            <button class="td-row-16" id="minus-16">&minus;</button>
+          </td>
+          <td class="td-row-16" id="td-name-16">
+            <button class="td-row-16" id="add-16">Khăn Lạnh</button>
+          </td>
+          <td class="td-row-16" id="td-price-16">2k</td>
+          <td class="td-row-16" id="td-amount-16">0</td>
+          <td class="td-row-16" id="td-total-16">0k</td>
+        </tr>
+
+        <!--.........................-->
       </table>
       <h2 id="last-sum">0 đ</h2>
-      <button id="reset-all"><h2>Tính Lại</h2></button>
+      <br/>
+      <br/>
+      <button id="reset-all"><h1>Tính Lại</h1></button>
     </div>
     <script src="script.js"></script>
   </body>
